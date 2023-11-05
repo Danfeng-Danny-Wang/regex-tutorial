@@ -15,12 +15,8 @@ In this tutorial, I will be explaining this following regular expression that ca
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
@@ -109,7 +105,17 @@ This means the preceding string pattern should happen a minimum of 2 times and a
 
 A character class in a regex defines a set of characters.
 
-### Flags
+```
+\d
+```
+
+Matches any Arabic numeral digit. This class is equivalent to the bracket expression [0-9]
+
+```
+\w
+```
+
+Matches any alphanumeric character from the basic Latin alphabet, including the underscore (_). This class is equivalent to the bracket expression [A-Za-z0-9_].
 
 ### Grouping and Capturing
 
@@ -135,14 +141,17 @@ A hyphen (-) is often used between alphanumeric characters to represent a range 
 
 In our example, this bracket expression represents any numbers (\d), character lowercase a to z (a-z), a period (\.), or a hyphen.
 
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
 ### Look-ahead and Look-behind
+
+These regex concepts were not included in this tutorial:
+
+- Flags
+- Boundaries
+- Greedy and Lazy match
+- Back-references
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hey, my name is Danny. I'm a very rookie full-stack web developer.
+
+My GitHub link is here: [Danfeng-Danny-Wang](https://github.com/Danfeng-Danny-Wang)
